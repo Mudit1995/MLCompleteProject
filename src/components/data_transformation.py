@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from exception import CustomeException
 from logger import logging
-from utils import save_obj
+from utils import save_obj,evaluate_models
 
 
 import os
